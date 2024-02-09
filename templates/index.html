@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart failure Prediction App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Heart failure Prediction App</h1>
+        <form action="/" method="post">
+            <div class="form-group">
+                <label for="serum_creatinine">serum_creatinine level:</label>
+                <input type="number" class="form-control form-control-sm" name="serum_creatinine" required>
+            </div>
+            <div class="form-group">
+                <label for="age">age of the person:</label>
+                <input type="number" class="form-control form-control-sm" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="cp">CP:</label>
+                <input type="number" class="form-control form-control-sm" name="cp" required>
+            </div>
+            <div class="form-group">
+                <label for="high_blood_pressure">blood pressure:</label>
+                <input type="number" class="form-control form-control-sm" name="high_blood_pressure" required>
+            </div>
+            <div class="form-group">
+                <label for="anaemia">anamia of person:</label>
+                <input type="number" class="form-control form-control-sm" name="anaemia" required>
+            </div>
+            <div class="form-group">
+                <label for="creatinine_phosphokinase">creatinine_phosphokinase:</label>
+                <input type="number" class="form-control form-control-sm" step="any" name="creatinine_phosphokinase" required>
+            </div>
+            <div class="form-group">
+                <label for="Cholesterol">Cholesterol level:</label>
+                <input type="number" class="form-control form-control-sm" step="any" name="Cholesterol" required>
+            </div>
+            <div class="form-group">
+                <label for="Weight">weight of person:</label>
+                <input type="number" class="form-control form-control-sm" name="Weight" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm">Heart Test Result</button>
+        </form>
+    </div>
+</body>
+</html>
